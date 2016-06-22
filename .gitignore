@@ -2,7 +2,6 @@
 *.o
 *.exe
 *.lo
-*.cmake
 .libs/
 Makefile
 Makefile.in
