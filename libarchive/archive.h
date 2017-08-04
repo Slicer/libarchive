@@ -333,7 +333,7 @@ typedef const char *archive_passphrase_callback(struct archive *,
 #define	ARCHIVE_FORMAT_MTREE			0x80000
 #define	ARCHIVE_FORMAT_RAW			0x90000
 #define	ARCHIVE_FORMAT_XAR			0xA0000
-#define	ARCHIVE_FORMAT_LHA			0xB0000
+//#define	ARCHIVE_FORMAT_LHA			0xB0000
 #define	ARCHIVE_FORMAT_CAB			0xC0000
 #define	ARCHIVE_FORMAT_RAR			0xD0000
 #define	ARCHIVE_FORMAT_7ZIP			0xE0000
@@ -443,7 +443,7 @@ __LA_DECL int archive_read_support_format_cpio(struct archive *);
 __LA_DECL int archive_read_support_format_empty(struct archive *);
 __LA_DECL int archive_read_support_format_gnutar(struct archive *);
 __LA_DECL int archive_read_support_format_iso9660(struct archive *);
-__LA_DECL int archive_read_support_format_lha(struct archive *);
+//__LA_DECL int archive_read_support_format_lha(struct archive *);
 __LA_DECL int archive_read_support_format_mtree(struct archive *);
 __LA_DECL int archive_read_support_format_rar(struct archive *);
 __LA_DECL int archive_read_support_format_raw(struct archive *);
