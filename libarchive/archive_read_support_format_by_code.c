@@ -51,9 +51,9 @@ archive_read_support_format_by_code(struct archive *a, int format_code)
 	case ARCHIVE_FORMAT_ISO9660:
 		return archive_read_support_format_iso9660(a);
 		break;
-	case ARCHIVE_FORMAT_LHA:
-		return archive_read_support_format_lha(a);
-		break;
+	//case ARCHIVE_FORMAT_LHA:
+	//	return archive_read_support_format_lha(a);
+	//	break;
 	case ARCHIVE_FORMAT_MTREE:
 		return archive_read_support_format_mtree(a);
 		break;

@@ -99,7 +99,7 @@ SET(libarchive_SOURCES
   archive_read_support_format_cpio.c
   archive_read_support_format_empty.c
   archive_read_support_format_iso9660.c
-  archive_read_support_format_lha.c
+  # archive_read_support_format_lha.c
   archive_read_support_format_mtree.c
   archive_read_support_format_rar.c
   archive_read_support_format_rar5.c
